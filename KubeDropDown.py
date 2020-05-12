@@ -86,4 +86,4 @@ def build_graph(data_chosen):
 #---------------------------------------------------------------
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0',port=8050,debug=True)
