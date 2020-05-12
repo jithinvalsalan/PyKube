@@ -1,5 +1,4 @@
 from kubernetes import client, config
-from columnar import columnar
 
 config.load_kube_config()
 
